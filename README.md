@@ -1,4 +1,4 @@
-# Create a configMap.yml file for Kubernetes from a JSON file
+# Creates a configMap.yml file for Kubernetes from a JSON file
 
 ### install
 ```shell
