@@ -1,7 +1,7 @@
 {
   "name": "json-to-configmap",
   "version": "1.0.1",
-  "description": "",
+  "description": "Creates a configMap.yml file for Kubernetes from a JSON file",
   "main": "index.js",
   "scripts": {
     "security": "nsp check",
