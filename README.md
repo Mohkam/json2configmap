@@ -37,7 +37,6 @@ metadata:
     name: YourCMapNameHere
     namespace: namesapce
 data:
-    undefined: null
     Serilog__Using__0: Serilog.Sinks.Elasticsearch
     Serilog__Using__1: TransPerfect.ReefReview.Core.Serilog
     Serilog__Enrich__0: FromLogContext
