@@ -13,8 +13,8 @@ module.exports = (configFile, prefix, name = 'YourCMapNameHere'
       key => {
       let name = prefix ? prefix + key : key
       if (Array.isArray(obj[key])){
-        fLen = obj[key].length;
-        for (i = 0; i < fLen; i++) {
+        arraylength = obj[key].length;
+        for (i = 0; i < arraylength; i++) {
           let tempkey = name +'__'+ i;
           result.push({key: tempkey, value: obj[key][i]}  )
         }
